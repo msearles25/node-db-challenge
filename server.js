@@ -1,3 +1,5 @@
+// I know, normally I would use the routes.
+
 const express = require('express');
 
 const Model = require('./models/model');
