@@ -4,7 +4,7 @@ exports.seed = function(knex) {
   // return knex('table_name').del()
   //   .then(function () {
       // Inserts seed entries
-      return knex('table_name').insert([
+      return knex('tasks').insert([
         { 
           project_id: 1, 
           description: 'This is a task for the first projet yo!', 
@@ -50,7 +50,7 @@ exports.seed = function(knex) {
           project_id: 3, 
           description: 'Final task.',
           notes: 'I\'m running out of ideas now.',
-          completed: 'false'
+          // completed: 'false' //test for default yo
         },
       ]);
     // });
